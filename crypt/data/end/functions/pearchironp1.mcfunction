@@ -1,0 +1,2 @@
+execute at @e[type=armor_stand,tag=pearchattack] as @e[type=armor_stand,tag=pearchattack] run summon tnt ~ ~ ~ {NoGravity:1b,CustomNameVisible:0b,Team:"dragon",Fuse:1}
+kill @e[type=armor_stand,tag=pearchattack]

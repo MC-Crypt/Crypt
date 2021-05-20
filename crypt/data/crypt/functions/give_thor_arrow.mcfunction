@@ -1,0 +1,1 @@
+give @s tipped_arrow{display:{Name:'{"text":"Thor arrow","color":"dark_blue","bold":true}'},CustomPotionEffects:[{Id:15b,Amplifier:1b,Duration:10,ShowParticles:1b}],CustomPotionColor:4607} 64

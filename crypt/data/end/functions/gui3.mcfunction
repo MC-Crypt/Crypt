@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"--------------------------\n \u0020 \u0020 \u0020 \u0020 "},{"text":":","italic":true,"obfuscated":true,"color":"dark_purple"},{"text":" Credits","bold":true,"color":"green"},{"text":" :","italic":true,"obfuscated":true,"color":"dark_purple"},{"text":"\n\n--------------------------"}]
+scoreboard players set @s end_gui 0

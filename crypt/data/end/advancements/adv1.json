@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "The batlle",
+            "color": "gold"
+        },
+        "description": {
+            "text": "go to the battle arena",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "arena": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "end:root"
+}

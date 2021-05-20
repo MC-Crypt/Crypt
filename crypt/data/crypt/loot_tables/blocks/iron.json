@@ -1,0 +1,273 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Legendary \",\"color\":\"#FFDD00\",\"bold\":true},{\"text\":\"Steel Dragon Helmet\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s:\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"Man of steel V\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives Knock back resitance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"bold\":true,\"obfuscated\":true},{\"text\":\" Decent armor\",\"color\":\"green\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"bold\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;1160577609,118898817,-1089625543,-256393101],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-159154006,-8632535,-1201974836,-59312656],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1870096715,-2021504194,-1795221726,-1764033924],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"EPIC \",\"color\":\"#FF00E6\",\"bold\":true},{\"text\":\"Steel Dragon Helmet\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s:\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"Man of steel IV\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives Knock back resitance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"bold\":true,\"obfuscated\":true},{\"text\":\" Decent armor\",\"color\":\"green\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"bold\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-1575293900,-56670151,-1512634859,-1933516548],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-274782524,1392659571,-1632978555,-2145291084],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;358701415,12470165,-1452301660,1066490509],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Strong \",\"color\":\"#572803\",\"bold\":true},{\"text\":\"Steel Dragon Helmet\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel III\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives your more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"and gives you knockback resistance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" OK armor \",\"color\":\"white\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1.5,Operation:0,UUID:[I;-403667563,1003311041,-2055469993,-96217971],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-621949175,-719895427,-1173438313,857003157],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.25,Operation:0,UUID:[I;-679636858,-567590218,-1860659032,-1427003325],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Better \",\"color\":\"#0A3000\",\"bold\":true},{\"text\":\"Steel Dragon Helmet\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s:\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"Man of steel II\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"bold\":true,\"obfuscated\":true},{\"text\":\" OK armor \",\"color\":\"white\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"bold\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;1413863998,-1421852069,-1113515447,1898043214],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.5,Operation:0,UUID:[I;2133632007,-1801761203,-1775430360,519420035],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Megear \",\"color\":\"#303030\",\"bold\":true},{\"text\":\"Steel Dragon Helmet\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s:\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"Man of steel I\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"bold\":true,\"obfuscated\":true},{\"text\":\" Bad armor \",\"color\":\"gray\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"bold\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-708198366,441863274,-2067080560,-712677861],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-1,Operation:0,UUID:[I;-471375685,1118653225,-1141019055,-143329648],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"LEGENDARY \",\"color\":\"#F2F200\",\"bold\":true},{\"text\":\"Steel Dragon Chestplate\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s:\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"Man of steel V\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives you more knockback resitance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"bold\":true,\"obfuscated\":true},{\"text\":\" Decent armor \",\"color\":\"green\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"bold\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;1900387361,1214861207,-1419327589,1088629658],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;346266732,-1989390919,-1669335054,-1618295886],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;292738836,1126844463,-1948720442,528261498],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"EPIC \",\"color\":\"#F200BA\",\"bold\":true},{\"text\":\"Steel Dragon Chestplate\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s:\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"Man of steel IV\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives you more knockback resitance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"bold\":true,\"obfuscated\":true},{\"text\":\" Decent armor \",\"color\":\"green\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"bold\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;1992495596,-1834791379,-2028040469,395258049],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;451559305,-1258337241,-1468102984,87686361],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;1440145003,-854571514,-1299508703,-452352556],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Strong \",\"color\":\"#572803\",\"bold\":true},{\"text\":\"Steel Dragon Chestplate\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel III\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"and gives you knockback resistance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" OK armor \",\"color\":\"white\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1.5,Operation:0,UUID:[I;-733559876,-204914179,-1664531734,1515971950],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.05,Operation:0,UUID:[I;-962118658,-312457609,-1520917999,-1152579654],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-313977897,-1977006120,-1462067636,-542461264],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Better \",\"color\":\"#0A3000\",\"bold\":true},{\"text\":\"Steel Dragon Chestplate\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s:\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"Man of steel II\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"bold\":true,\"obfuscated\":true},{\"text\":\" OK armor \",\"color\":\"white\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"bold\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1.5,Operation:0,UUID:[I;-1725993897,1471891092,-2064057854,-1135956035],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.75,Operation:0,UUID:[I;-1406395283,-2077145203,-2084223215,648293066],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Megear \",\"color\":\"#303030\",\"bold\":true},{\"text\":\"Steel Dragon Chestplate\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s:\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"Man of steel I\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"bold\":true,\"obfuscated\":true},{\"text\":\" Bad armor \",\"color\":\"gray\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"bold\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;863938676,-679130740,-1618119277,-1547191957],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-1,Operation:0,UUID:[I;-338837871,-1454682728,-1091629731,-1191059095],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"LEGENDARY \",\"color\":\"#F2EA00\",\"bold\":true},{\"text\":\"Steel Dragon Leggings\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel V\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives your more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"and gives you knockback resistance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" Decent armor \",\"color\":\"green\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-250754679,-735755545,-1755230753,-829165300],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-1369375573,-51690575,-1303531133,244220970],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1278788234,-1350942436,-1350712519,-499377415],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"EPIC \",\"color\":\"#F200BA\",\"bold\":true},{\"text\":\"Steel Dragon Leggings\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel IV\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives your more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"and gives you knockback resistance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" Decent armor \",\"color\":\"green\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;209637490,988629651,-1308848532,1792605227],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;-354239551,-1781316811,-1408474695,1051758255],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;925584695,-926924226,-1319985291,864981462],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Strong \",\"color\":\"#572803\",\"bold\":true},{\"text\":\"Steel Dragon Leggings\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel III\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"and gives you knockback resistance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" OK armor \",\"color\":\"white\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1.5,Operation:0,UUID:[I;-1818074690,-1767750351,-1878613961,1074147272],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.25,Operation:0,UUID:[I;1806596236,-315276739,-1824494253,953597337],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-842213598,-379302551,-1750462848,-948215457],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Better \",\"color\":\"#0A3000\",\"bold\":true},{\"text\":\"Steel Dragon Leggings\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel II\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"white\",\"obfuscated\":true},{\"text\":\" OK  armor \",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1.5,Operation:0,UUID:[I;-60058424,602818424,-1120434922,-713407289],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.75,Operation:0,UUID:[I;-1063080390,-1422375046,-1958204043,-746368670],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Megear \",\"color\":\"#303030\",\"bold\":true},{\"text\":\"Steel Dragon Leggings\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel I\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" Bad armor \",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;922901334,-1773188419,-2012706352,-1864457773],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-1,Operation:0,UUID:[I;-33281071,-924040148,-2098669915,-1407414135],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"LEGENDARY \",\"color\":\"#F2EA00\",\"bold\":true},{\"text\":\"Steel Dragon Boots\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel V\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives your more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"and gives you knockback resistance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" Decent armor \",\"color\":\"green\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-862923594,1631077197,-1296902497,-848246829],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;1932872976,-638238057,-1724380245,-1748735331],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;933833552,-432520876,-1148807433,1444294918],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"EPIC  \",\"color\":\"#F200BA\",\"bold\":true},{\"text\":\"Steel Dragon Boots\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel IV\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"And gives your more armor\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"and gives you knockback resistance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" OK armor \",\"color\":\"white\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-862923594,1631077197,-1296902497,-848246829],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.5,Operation:0,UUID:[I;1932872976,-638238057,-1724380245,-1748735331],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;933833552,-432520876,-1148807433,1444294918],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Strong \",\"color\":\"#572803\",\"bold\":true},{\"text\":\"Steel Dragon boots\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel III\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"and gives you knockback resistance\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" OK armor \",\"color\":\"white\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1.5,Operation:0,UUID:[I;603350305,1031488213,-1768137573,2116196105],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.005,Operation:0,UUID:[I;-564674317,812795248,-2056055310,728428236],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;1023768323,1056195690,-2057443200,1890054015],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Better \",\"color\":\"#0A3000\",\"bold\":true},{\"text\":\"Steel Dragon Boots\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel II\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" OK armor \",\"color\":\"white\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-1640132258,600982358,-1281968129,-1392649181],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.007,Operation:0,UUID:[I;-561033045,1175867243,-1954492947,-1090395414],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Megear \",\"color\":\"#303030\",\"bold\":true},{\"text\":\"Steel Dragon Boots\",\"color\":\"gray\"}]',Lore:['{\"text\":\" \"}','{\"text\":\"Ability\\'s\",\"color\":\"gold\"}','{\"text\":\"Man of steel I\",\"color\":\"dark_gray\",\"bold\":true,\"underlined\":true}','{\"text\":\"Gives more attack damage\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"But slows you down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\":\",\"color\":\"gray\",\"obfuscated\":true},{\"text\":\" Bad armor \",\"color\":\"gray\",\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]']},HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.5,Operation:0,UUID:[I;1802204,-1710469878,-1931322558,-1008139021],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.01,Operation:0,UUID:[I;2055430560,-137412157,-1305104357,-1276115521],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 35
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 3,
+                "max": 7
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

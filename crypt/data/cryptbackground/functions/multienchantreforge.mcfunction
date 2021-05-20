@@ -1,0 +1,2 @@
+give @p enchanted_book{display:{Name:'[{"text":"Enchantment ","color":"white","bold":true},{"text":"Upgrade book","color":"gray","bold":true}]',Lore:['{"text":" "}','{"text":"Go to the reforger in the libary","color":"light_purple"}','{"text":"and use this on a multisword","color":"light_purple"}']}} 1
+tellraw @s {"text":"Gave yourself a Enchant multi reforge","color":"dark_green"}

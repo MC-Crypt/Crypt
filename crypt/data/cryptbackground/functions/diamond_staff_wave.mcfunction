@@ -1,0 +1,9 @@
+summon falling_block ~1 ~3 ~1 {BlockState:{Name:"minecraft:blue_concrete"},Time:17,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}
+summon falling_block ~ ~3 ~1 {BlockState:{Name:"minecraft:blue_concrete"},Time:17,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}
+summon falling_block ~-1 ~3 ~1 {BlockState:{Name:"minecraft:blue_concrete"},Time:17,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}
+summon falling_block ~1 ~3 ~ {BlockState:{Name:"minecraft:blue_concrete"},Time:16,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}
+summon falling_block ~ ~3 ~ {BlockState:{Name:"minecraft:blue_concrete"},Time:16,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}
+summon falling_block ~-1 ~3 ~ {BlockState:{Name:"minecraft:blue_concrete"},Time:16,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}
+summon falling_block ~1 ~3 ~-1 {BlockState:{Name:"minecraft:blue_concrete"},Time:15,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}
+summon falling_block ~ ~3 ~-1 {BlockState:{Name:"minecraft:blue_concrete"},Time:15,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}
+summon falling_block ~-1 ~3 ~-1 {BlockState:{Name:"minecraft:blue_concrete"},Time:15,DropItem:0b,HurtEntities:1b,Tags:["hyperion"]}

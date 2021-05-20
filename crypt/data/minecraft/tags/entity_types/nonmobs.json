@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:item",
+	"minecraft:experience_orb",
+	"minecraft:wither",
+	"minecraft:ender_dragon",
+	"minecraft:snowball",
+	"minecraft:egg",
+	"minecraft:experience_bottle",
+	"minecraft:item_frame",
+	"minecraft:painting",
+	"minecraft:firework_rocket",
+	"minecraft:fireball",
+	"minecraft:dragon_fireball",
+	"minecraft:area_effect_cloud",
+	"minecraft:potion",
+	"minecraft:tnt",
+	"minecraft:wither_skull",
+	"minecraft:player",
+	"minecraft:small_fireball"
+  ]
+}

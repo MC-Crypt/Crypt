@@ -1,0 +1,1 @@
+give @s golden_boots{display:{Name:'{"text":"Boots of leaping","color":"green","bold":true}',Lore:['{"text":" "}','{"text":"when worn crouch to power up","color":"light_purple","bold":true}','{"text":"stop crouching to launch up","color":"light_purple","bold":true}']},CustomModelData:554466} 1
