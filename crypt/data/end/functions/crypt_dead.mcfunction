@@ -1,4 +1,5 @@
-tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Crypt Dragon","bold":true,"color":"light_purple"},{"text":"]","color":"#FF9F00"},{"text":" ahhhhh i have been defeted.","color":"#FF0300"}]
+execute if entity @a[x=-64,y=149,z=-64,dx=128,dy=100,dz=128] run tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Crypt Dragon","bold":true,"color":"light_purple"},{"text":"]","color":"#FF9F00"},{"text":" ahhhhh i have been defeted.","color":"#FF0300"}]
+execute unless entity @a[x=-64,y=149,z=-64,dx=128,dy=100,dz=128] run tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Crypt Dragon","bold":true,"color":"light_purple"},{"text":"]","color":"#FF9F00"},{"text":" YOU CAN NEVER KILL ME.","color":"#FF0300"}]
 scoreboard players set present end_crypt 0
 scoreboard players set alive end_crypt 0
 scoreboard players set cryptdrag end_crypt 0

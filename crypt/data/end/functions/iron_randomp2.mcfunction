@@ -1,0 +1,6 @@
+execute at @e[type=armor_stand,tag=anvil] run summon falling_block ~ 210 ~ {BlockState:{Name:"minecraft:damaged_anvil"},Time:1,DropItem:0b,HurtEntities:1b,FallHurtMax:50,FallHurtAmount:2f,Tags:["anvil"]}
+execute at @e[type=armor_stand,tag=anvil] run summon falling_block ~1 210 ~ {BlockState:{Name:"minecraft:damaged_anvil"},Time:1,DropItem:0b,HurtEntities:1b,FallHurtMax:50,FallHurtAmount:2f,Tags:["anvil"]}
+execute at @e[type=armor_stand,tag=anvil] run summon falling_block ~-1 210 ~ {BlockState:{Name:"minecraft:damaged_anvil"},Time:1,DropItem:0b,HurtEntities:1b,FallHurtMax:50,FallHurtAmount:2f,Tags:["anvil"]}
+execute at @e[type=armor_stand,tag=anvil] run summon falling_block ~ 210 ~1 {BlockState:{Name:"minecraft:damaged_anvil"},Time:1,DropItem:0b,HurtEntities:1b,FallHurtMax:50,FallHurtAmount:2f,Tags:["anvil"]}
+execute at @e[type=armor_stand,tag=anvil] run summon falling_block ~ 210 ~-1 {BlockState:{Name:"minecraft:damaged_anvil"},Time:1,DropItem:0b,HurtEntities:1b,FallHurtMax:50,FallHurtAmount:2f,Tags:["anvil"]}
+execute as @e[type=armor_stand,tag=anvil] run kill @s

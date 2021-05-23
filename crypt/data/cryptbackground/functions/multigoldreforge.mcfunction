@@ -1,2 +1,2 @@
-give @p enchanted_book{display:{Name:'[{"text":"Gold ","color":"gold","bold":true},{"text":"Upgrade book","color":"gray","bold":true}]',Lore:['{"text":" "}','{"text":"Go to the reforger in the libary","color":"light_purple"}','{"text":"and use this on a multisword","color":"light_purple"}']}} 1
+give @p enchanted_book{display:{Name:'[{"text":"Gold ","color":"gold","bold":true},{"text":"Reforge book","color":"gray","bold":true}]',Lore:['{"text":" "}','{"text":"Go to the reforger in the libary","color":"light_purple"}','{"text":"and use this on a multisword","color":"light_purple"}']},CustomModelData:452} 1
 tellraw @s {"text":"Gave yourself a Iron gold sword reforge","color":"dark_green"}

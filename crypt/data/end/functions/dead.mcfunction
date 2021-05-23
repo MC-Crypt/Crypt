@@ -15,3 +15,4 @@ scoreboard players set regenworld end_crypt 1
 scoreboard players set present end_crypt 0
 kill @e[tag=key_sheep]
 function end:dooropen
+kill @e[tag=crypt]

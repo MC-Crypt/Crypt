@@ -266,6 +266,65 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_bars",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 13
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Iron \",\"color\":\"blue\",\"bold\":true},{\"text\":\"Upgrade book\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Go to the reforger in the libary\",\"color\":\"light_purple\"}','{\"text\":\"and use this on a multisword\",\"color\":\"light_purple\"}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"BAN HAMMER\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"right click to throw the \",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"ban hammer\",\"color\":\"light_purple\",\"bold\":true}']},CustomModelData:133542,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:20,Operation:0,UUID:[I;-1483995567,-14073740,-1711184938,1239707815],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.05,Operation:0,UUID:[I;575872132,731859171,-1303985065,672443400],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;888347389,-63681847,-1107983608,-690486584],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"steal bow\",\"color\":\"gray\",\"bold\":true}'},Enchantments:[{id:\"minecraft:power\",lvl:7s}]}"
+                        }
+                    ]
                 }
             ]
         }

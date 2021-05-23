@@ -3,4 +3,4 @@ data merge entity @s {Invulnerable:0b}
 effect give @s wither 100 250 true
 tag @s remove godaxe
 summon creeper ^1.8 ^ ^4.2 {Invulnerable:1b,ExplosionRadius:12b,Fuse:1,ignited:1b}
-execute as @e[distance=1..10,type=!wither,type=!ender_dragon,type=!area_effect_cloud,type=!falling_block,type=!item,type=!item_frame] run say got banned
+execute as @e[distance=1..10,type=!wither,type=!ender_dragon,type=!area_effect_cloud,type=!falling_block,type=!item,type=!item_frame,type=!creeper] run say got banned

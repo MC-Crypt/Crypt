@@ -1,0 +1,1 @@
+give @p crossbow{display:{Name:'{"text":"Not a minigun","color":"gold","bold":true}',Lore:['{"text":" "}','{"text":"ok it might be a minigun","color":"light_purple"}']},Enchantments:[{id:"minecraft:unbreaking",lvl:5s},{id:"minecraft:quick_charge",lvl:5s}]} 1

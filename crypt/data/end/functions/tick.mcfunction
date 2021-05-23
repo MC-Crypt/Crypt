@@ -18,8 +18,6 @@ execute if score present end_crypt matches 0 run particle minecraft:flame 0 171.
 execute at @e[type=armor_stand,tag=dragmidas] as @e[type=armor_stand,tag=dragmidas] run tp ^ ^ ^1 
 execute at @e[type=armor_stand,tag=dragmidas] run particle minecraft:explosion ~ ~ ~ 0 0 0 1 2
 execute at @e[type=armor_stand,tag=dragmidas] run summon creeper ^ ^ ^-2 {Invulnerable:1b,NoAI:1b,ExplosionRadius:3b,Fuse:0}
-execute if entity @e[type=giant,tag=godaxe,nbt={OnGround:1b}] at @e[type=giant,tag=godaxe,nbt={OnGround:1b}] as @e[type=giant,tag=godaxe,nbt={OnGround:1b}] run function end:godaxeattack
-execute if score alive end_crypt matches 0 if score present end_crypt matches 1 unless score hp end_crypt matches 1000 unless score end_drag end_crypt matches 1 run scoreboard players add hp end_crypt 1
 execute unless block 13 172 13 minecraft:player_head if score blockdragonspawn end_crypt matches 0 run particle minecraft:composter 13 175 13 0 2 0 0 12 force
 execute unless block -13 172 13 minecraft:player_head if score blockdragonspawn end_crypt matches 0 run particle minecraft:composter -13 175 13 0 2 0 0 12 force
 execute unless block 13 172 -13 minecraft:player_head if score blockdragonspawn end_crypt matches 0 run particle minecraft:composter 13 175 -13 0 2 0 0 12 force
@@ -29,3 +27,4 @@ kill @e[x=-5,y=156,z=-176,dx=10,dy=1,dz=99,type=falling_block]
 execute at @e[tag=armornpc,type=villager] as @p[distance=..3,scores={armornpc=0}] run function end:armornpc
 execute at @e[tag=mayornpc,type=villager] as @p[distance=..2,scores={mayornpc=0}] run function end:mayornpc
 execute at @e[type=armor_stand,tag=key_sheep] run summon item ~ ~ ~ {Age:5950,Health:10000,PickupDelay:32767,Motion:[0.0,1.0,0.0],Item:{id:"minecraft:diamond",Count:1b}}
+execute if score alive end_crypt matches 0 if score present end_crypt matches 1 unless score hp end_crypt matches 1000 unless score end_drag end_crypt matches 1 run scoreboard players add hp end_crypt 1

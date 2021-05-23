@@ -1,0 +1,1 @@
+give @s wooden_pickaxe{display:{Name:'{"text":"Drill","color":"gold","bold":true}',Lore:['{"text":" "}','{"text":"Is increadably fast but can only","color":"light_purple","bold":true}','{"text":"mine certain ores","color":"light_purple","bold":true}']},Unbreakable:1b,CustomModelData:388967,Enchantments:[{id:"minecraft:efficiency",lvl:7s},{id:"minecraft:silk_touch",lvl:1s}]}

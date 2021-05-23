@@ -1,0 +1,167 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Boots of leaping\",\"color\":\"green\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"when worn crouch to power up\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"stop crouching to launch up\",\"color\":\"light_purple\",\"bold\":true}']},CustomModelData:554466}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:wooden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Drill\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Is increadably fast but can only\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"mine certain ores\",\"color\":\"light_purple\",\"bold\":true}']},Unbreakable:1b,CustomModelData:388967,Enchantments:[{id:\"minecraft:efficiency\",lvl:7s},{id:\"minecraft:silk_touch\",lvl:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fishing_rod",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:455446,display:{Name:'{\"text\":\"Midas rod\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"when held all rods in the area \"}','{\"text\":\"become attack with gold\"}']},HideFlags:2,Damage:0,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1,Operation:0,UUID:[I;1027209745,510020783,-1106324080,-88507506],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-1984564428,671697902,-1876828510,-455420385],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"gold spell book\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Can be applied to a wand\",\"color\":\"light_purple\",\"bold\":true}','[{\"text\":\"Secondary: \",\"color\":\"gray\"},{\"text\":\"makes a gold wave when crouching\",\"color\":\"light_purple\",\"bold\":true}]']},title:\"\",author:\"\",generation:3,pages:['{\"text\":\"jiadiuahijdaoisjiaioj9asdi iaodioajoisdjioajoijiadojifnoiansdo[nadsoicnioamdpomaopjdamopfmapodn piand ipvnaeoin odan ioanmoifdas ca\",\"obfuscated\":true}']}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Dragons Crown\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Grants extra speed\",\"color\":\"light_purple\",\"bold\":true}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.02,Operation:0,UUID:[I;1808750066,-2005385017,-1631162600,-269321668],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Dragons Chestplate\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Grants extra speed\",\"color\":\"light_purple\",\"bold\":true}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.02,Operation:0,UUID:[I;-842220616,-1455996347,-1530190630,700340980],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Dragons Leggings\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Grants extra speed\",\"color\":\"light_purple\",\"bold\":true}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.02,Operation:0,UUID:[I;-842220616,-1455996347,-1530190630,700340980],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Dragons Boots\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Grants extra speed\",\"color\":\"light_purple\",\"bold\":true}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.02,Operation:0,UUID:[I;-842220616,-1455996347,-1530190630,700340980],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:popped_chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Speed Talisman\",\"color\":\"gold\"}',Lore:['{\"text\":\" \"}','{\"text\":\"when held grants doubles your speed\",\"color\":\"light_purple\"}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:2,Operation:2,UUID:[I;-432665174,1871595096,-2130694610,1719471357]}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
