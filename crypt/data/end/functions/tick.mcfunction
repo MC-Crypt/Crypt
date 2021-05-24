@@ -14,7 +14,7 @@ execute if score irondrag end_crypt matches 1 if score half end_crypt matches -1
 execute if score irondrag end_crypt matches 1 if score half end_crypt matches -1 at @e[type=ender_dragon,name="crypt"] run tp @e[type=iron_golem,tag=prot2] ~-5 ~-1 ~
 execute if score irondrag end_crypt matches 1 if score half end_crypt matches -1 at @e[type=ender_dragon,name="crypt"] run tp @e[type=iron_golem,tag=prot3] ~ ~-1 ~5
 execute if score irondrag end_crypt matches 1 if score half end_crypt matches -1 at @e[type=ender_dragon,name="crypt"] run tp @e[type=iron_golem,tag=prot4] ~ ~-1 ~-5
-execute if score present end_crypt matches 0 run particle minecraft:flame 0 171.4 0 1.7 0 1.7 0.02 50 normal
+execute if score present end_crypt matches 0 run particle minecraft:flame 0 170.4 0 1.7 0 1.7 0.02 50 normal
 execute at @e[type=armor_stand,tag=dragmidas] as @e[type=armor_stand,tag=dragmidas] run tp ^ ^ ^1 
 execute at @e[type=armor_stand,tag=dragmidas] run particle minecraft:explosion ~ ~ ~ 0 0 0 1 2
 execute at @e[type=armor_stand,tag=dragmidas] run summon creeper ^ ^ ^-2 {Invulnerable:1b,NoAI:1b,ExplosionRadius:3b,Fuse:0}
