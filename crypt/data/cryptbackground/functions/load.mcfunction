@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Crypt version","bold":true,"color":"dark_blue"},{"text":" 0.8!","color":"gold"},{"text":"\n"},{"text":"For more info run ","bold":true,"color":"dark_blue"},{"text":"/trigger crypt_gui","bold":true,"color":"#E000FF","clickEvent":{"action":"run_command","value":"/trigger crypt_gui"},"hoverEvent":{"action":"show_text","contents":{"text":"When clicked runs the command","color":"dark_blue"}}}]
+tellraw @a ["",{"text":"Crypt version","bold":true,"color":"dark_blue"},{"text":" 0.8.1!","color":"gold"},{"text":"\n"},{"text":"For more info run ","bold":true,"color":"dark_blue"},{"text":"/trigger crypt_gui","bold":true,"color":"#E000FF","clickEvent":{"action":"run_command","value":"/trigger crypt_gui"},"hoverEvent":{"action":"show_text","contents":{"text":"When clicked runs the command","color":"dark_blue"}}}]
 schedule function end:10tick_loop 10t
 schedule function cryptbackground:random 100t
 schedule function end:bridge 5t
