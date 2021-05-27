@@ -186,7 +186,7 @@ scoreboard players set hp end_crypt 0
 schedule function end:iron_prep 3s
 execute in overworld run function end:close
 tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Run command iron_egg line 12 schedule iron_prep 60t","color": "green"}]
-execute as @a run function music:dragons_rage/play
+function music:dragons_rage/play
 function end:doorclose
 execute in end:crypt run setblock 13 172 13 air
 execute in end:crypt run setblock -13 172 13 air

@@ -189,7 +189,7 @@ scoreboard players set hp end_crypt 0
 schedule function end:diamond_prep 3s
 tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Diamond Dragon","bold":true,"color":"blue"},{"text":"]","color":"#FF9F00"},{"text":" HA HA I would like you to see you try ","color":"#FF0300"},{"text":"Mortals","bold":true,"color":"#FF0300"}]
 tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Run command diamond_egg line 12 schedule diamond_prep 60t","color": "green"}]
-execute as @a run function music:dragons_rage/play
+function music:dragons_rage/play
 execute in end:crypt run setblock 13 172 13 air
 execute in end:crypt run setblock -13 172 13 air
 execute in end:crypt run setblock 13 172 -13 air

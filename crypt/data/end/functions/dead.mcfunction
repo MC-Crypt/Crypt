@@ -13,8 +13,6 @@ execute as @a run function music:dragons_rage/stop
 scoreboard players set hp end_crypt 0
 scoreboard players set half end_crypt -1
 scoreboard players set regenworld end_crypt 1
-function crypt:start
-schedule function end:doorclose 10s
 scoreboard players set present end_crypt 0
 kill @e[tag=key_sheep]
 function end:dooropen
