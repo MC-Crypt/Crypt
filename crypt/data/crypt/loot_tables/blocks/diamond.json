@@ -1,0 +1,132 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\":\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Dragon shard \",\"color\":\"light_purple\",\"bold\":true,\"obfuscated\":false},{\"text\":\":\",\"obfuscated\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"This dragon shard can be\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"used to make dragon eggs with\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"the crypt trader\",\"color\":\"light_purple\",\"bold\":true}']},CustomModelData:3435,Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"DIAMOND STAFF\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Wither smash\",\"color\":\"dark_gray\",\"bold\":true}','{\"text\":\" \"}','{\"text\":\"right click to send a smash forward\",\"color\":\"light_purple\",\"bold\":true}']},CustomModelData:4653}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Magicians chestplate\",\"color\":\"blue\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"When worn if you are crouching you gain regeneration\",\"color\":\"light_purple\",\"bold\":true}']},CustomModelData:39984,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-369692525,794772988,-2141664372,-584797903],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 18
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Diamond engraved helmet\",\"color\":\"blue\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Grants extra health\",\"color\":\"light_purple\",\"bold\":true}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-2070975301,-1101968961,-1197046447,925193518],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Diamond engraved chestplate\",\"color\":\"blue\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Grants extra health\",\"color\":\"light_purple\",\"bold\":true}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;150588102,1458392514,-1717979158,197039452],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Diamond engraved leggings\",\"color\":\"blue\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Grants extra health\",\"color\":\"light_purple\",\"bold\":true}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-1077871386,-1798615657,-1269555525,-1513114997],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Diamond engraved boots\",\"color\":\"blue\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Grants extra health\",\"color\":\"light_purple\",\"bold\":true}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;20622524,1752714224,-1201602296,-1531498547],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 4
+                }
+            ]
+        }
+    ]
+}

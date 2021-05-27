@@ -1,6 +1,7 @@
 {
         "values": [
         "cryptbackground:load",
+        "music:tim/load",
         "music:dragons_rage/load"
     ]
 }

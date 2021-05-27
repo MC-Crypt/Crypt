@@ -39,5 +39,7 @@ execute as @a[scores={end_gui=2}] run function end:gui2
 execute as @a[scores={end_gui=3}] run function end:gui3
 execute as @a[scores={end_gui=11}] run scoreboard objectives setdisplay sidebar end_crypt
 execute in end:crypt if score on end_crypt matches 1 run function end:tick
+execute as @a[nbt={Inventory:[{id:"minecraft:diamond_chestplate",Slot:102b,tag:{CustomModelData:39984}}]},scores={crouching=1..}] run effect give @s regeneration 1 1 false
 execute as @a[nbt={Inventory:[{id:"minecraft:golden_boots",Slot:100b,tag:{CustomModelData:554466}}]},scores={crouching=1..}] if entity @s[nbt={OnGround:1b}] at @s run function cryptbackground:leapingboots
 execute in end:crypt as @a[x=-1,y=159,z=-219,dx=2,dy=1.6,dz=2] run execute in overworld run tp 2 70 0
+execute as @a[scores={crouching=1..}] unless entity @s[scores={crouchconfirm=1..}] run scoreboard players reset @s

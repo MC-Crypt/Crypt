@@ -1,6 +1,7 @@
 {
         "values": [
         "cryptbackground:tick",
+        "music:tim/tick",
         "music:dragons_rage/tick"
      ]
 }

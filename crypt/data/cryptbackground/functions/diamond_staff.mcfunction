@@ -8,4 +8,4 @@ summon area_effect_cloud ^ ^ ^13 {Particle:"crit",Radius:0.4f,RadiusPerTick:0.1f
 summon area_effect_cloud ^ ^ ^15 {Particle:"crit",Radius:0.4f,RadiusPerTick:0.1f,Duration:28,Age:1,Tags:["diamondstaff"]}
 tag @s add cooldown
 scoreboard players set @s cooldown 0
-playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 2 1
+playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 2

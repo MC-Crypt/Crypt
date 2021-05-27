@@ -185,7 +185,6 @@ scoreboard players set present end_crypt 1
 scoreboard players set blockdragonspawn end_crypt 1
 scoreboard players set hp end_crypt 0
 schedule function end:crypt_prep 3s
-execute in overworld run function end:close
 tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Run command crypt_egg line 12 schedule crypt_prep 60t","color": "green"}]
 execute as @a run function music:dragons_rage/play
 execute in end:crypt run setblock 13 172 13 air

@@ -14,3 +14,5 @@ execute if score bridge end_crypt matches 0 in end:crypt if block -3 163 -183 pl
 execute if score bridge end_crypt matches 1 in end:crypt unless block -3 163 -183 player_head{SkullOwner:{Id:[I;-1283024900,-669892569,-1590057033,-312286073],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIwZTU5OWI1YjIzMDExNTdjYjE0ZWYwMGZmM2FmY2Y2ZjI3NWMzMjMwNjQwZDM0ZGI1NzU4MjI3MDQzY2Y0In19fQ=="}]}}} run scoreboard players set bridge end_crypt 0
 execute if score cooldown smortmath > zero end_crypt run scoreboard players remove cooldown smortmath 1
 execute if score keycooldown smortmath > zero end_crypt run scoreboard players remove keycooldown smortmath 1
+execute if score ironpearch end_crypt matches 1 if score irondrag end_crypt matches 1 run execute at @a[tag=incrypt] run summon lightning_bolt ~ ~ ~
+execute at @e[type=skeleton,tag=immune] run function cryptbackground:diamond_staff

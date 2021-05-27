@@ -49,3 +49,19 @@ scoreboard players set crystllev end_crypt 0
 scoreboard objectives add uuid dummy
 scoreboard players set keycooldown smortmath 0
 scoreboard players set cooldown smortmath 0
+scoreboard objectives add wspawnpoint minecraft.used:minecraft.white_bed
+scoreboard objectives add ospawnpoint minecraft.used:minecraft.orange_bed
+scoreboard objectives add mspawnpoint minecraft.used:minecraft.magenta_bed
+scoreboard objectives add lbspawnpoint minecraft.used:minecraft.light_blue_bed
+scoreboard objectives add yspawnpoint minecraft.used:minecraft.yellow_bed
+scoreboard objectives add lspawnpoint minecraft.used:minecraft.lime_bed
+scoreboard objectives add pspawnpoint minecraft.used:minecraft.pink_bed
+scoreboard objectives add lgspawnpoint minecraft.used:minecraft.light_gray_bed
+scoreboard objectives add gspawnpoint minecraft.used:minecraft.gray_bed
+scoreboard objectives add cspawnpoint minecraft.used:minecraft.cyan_bed
+scoreboard objectives add puspawnpoint minecraft.used:minecraft.purple_bed
+scoreboard objectives add bspawnpoint minecraft.used:minecraft.blue_bed
+scoreboard objectives add brpawnpoint minecraft.used:minecraft.brown_bed
+scoreboard objectives add grspawnpoint minecraft.used:minecraft.green_bed
+scoreboard objectives add rspawnpoint minecraft.used:minecraft.red_bed
+scoreboard objectives add bspawnpoint minecraft.used:minecraft.black_bed
