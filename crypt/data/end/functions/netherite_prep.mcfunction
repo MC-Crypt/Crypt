@@ -7,5 +7,5 @@ scoreboard players set present end_crypt 1
 scoreboard players set netheritedrag end_crypt 1
 bossbar set netherite_drag visible true
 bossbar set netherite_drag max 600
-tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Netherite Dragon","bold":true,"color":"brown"},{"text":"]","color":"#FF9F00"},{"text":" You pick me? ","color":"#FF0300"},{"text":"FOOL!","bold":true,"color":"#FF0300"}]
+tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Netherite Dragon","bold":true,"color":"black"},{"text":"]","color":"#FF9F00"},{"text":" You pick me? ","color":"#FF0300"},{"text":"FOOL!","bold":true,"color":"#FF0300"}]
 schedule function end:netherite_drag 16s

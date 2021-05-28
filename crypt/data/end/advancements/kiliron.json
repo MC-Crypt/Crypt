@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Iron Invasion",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "Kill the Iron Dragon, defender of the corrupted land",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kiliron": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "end:egg"
+}

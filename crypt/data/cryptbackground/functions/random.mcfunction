@@ -16,3 +16,5 @@ execute if score cooldown smortmath > zero end_crypt run scoreboard players remo
 execute if score keycooldown smortmath > zero end_crypt run scoreboard players remove keycooldown smortmath 1
 execute if score ironpearch end_crypt matches 1 if score irondrag end_crypt matches 1 run execute at @a[tag=incrypt] run summon lightning_bolt ~ ~ ~
 execute at @e[type=skeleton,tag=immune] run function cryptbackground:diamond_staff
+execute at @e[type=ghast,tag=crypt] run function end:gold_pearch
+execute as @e[type=phantom,tag=crypt] at @s run function end:netheritep2_attack

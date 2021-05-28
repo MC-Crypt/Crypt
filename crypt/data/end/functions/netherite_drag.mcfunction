@@ -179,13 +179,13 @@ execute in end:crypt run summon creeper 0 200 0 {Silent:1b,Invulnerable:1b,NoAI:
 execute in end:crypt run summon ender_dragon 0 204 0 {Team:"dragon",Health:600f,DragonPhase:4,Tags:["crypt"],CustomName:'{"text":"crypt"}',Attributes:[{Name:generic.max_health,Base:600}]}
 scoreboard players set pearch end_crypt 0
 scoreboard players set alive end_crypt 1
-scoreboard players set half end_crypt 100
+scoreboard players set half end_crypt 500
 execute in end:crypt run setblock 3 171 3 air
 execute in end:crypt run setblock -3 171 3 air
 execute in end:crypt run setblock 3 171 -3 air
 execute in end:crypt run setblock -3 171 -3 air
 execute in end:crypt run kill @e[type=end_crystal,x=-4,y=160,z=-4,dx=8,dy=12,dz=8]
-tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Nehterite Dragon","bold":true,"color":"brown"},{"text":"] ","color":"#FF9F00"},{"text":"I HAVE BEEN AWOKEN","bold":true,"color":"#FF0300"}]
+tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Nehterite Dragon","bold":true,"color":"black"},{"text":"] ","color":"#FF9F00"},{"text":"I HAVE BEEN AWOKEN","bold":true,"color":"#FF0300"}]
 execute in end:crypt run particle minecraft:enchant 0 195 0 0 0 0 20 500
 execute as @a at @s run playsound entity.ravager.celebrate master @s ~ ~ ~ 1 1
 particle minecraft:explosion_emitter 0 210 0 4 7 4 1 40 force

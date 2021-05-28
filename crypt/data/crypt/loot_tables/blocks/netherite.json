@@ -1,0 +1,132 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:wooden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Drill\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Is increadably fast but can only\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"mine certain ores\",\"color\":\"light_purple\",\"bold\":true}']},Unbreakable:1b,CustomModelData:388967,Enchantments:[{id:\"minecraft:efficiency\",lvl:7s},{id:\"minecraft:silk_touch\",lvl:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Not a minigun\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"ok it might be a minigun\",\"color\":\"light_purple\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:quick_charge\",lvl:5s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Netherite \",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"Reforge book\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Go to the reforger in the libary\",\"color\":\"light_purple\"}','{\"text\":\"and use this on a multisword\",\"color\":\"light_purple\"}']},CustomModelData:454}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"NUKE arrow\",\"color\":\"red\",\"bold\":true}'},CustomPotionEffects:[{Id:16b,Amplifier:1b,Duration:10,ShowParticles:1b}],CustomPotionColor:16711680}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Multi sword\",\"color\":\"dark_red\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Adaptive\",\"color\":\"gold\",\"bold\":true,\"underlined\":true}','{\"text\":\"Can be combined with books from\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Each dragon to gain there abitlies\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\" \"}','{\"text\":\"Dragons grace\",\"color\":\"gold\",\"bold\":true}','{\"text\":\"When held the dragon will grace you\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"With a stronger attack and luck\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Active book’s\",\"color\":\"dark_green\",\"underlined\":true}','{\"text\":\"NO books\",\"color\":\"red\",\"bold\":true}','{\"text\":\" \"}','[{\"text\":\"Next book: \",\"color\":\"dark_gray\"},{\"text\":\"Iron\",\"color\":\"white\"}]']},HideFlags:2,Unbreakable:1b,CustomModelData:666420666,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;1751277169,-1448718955,-1429313417,837921176],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:0,UUID:[I;-529388347,-1904915108,-1289308076,-2130227414]}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"NETHERITE NUKE\",\"color\":\"#BD6500\",\"bold\":true}',Lore:['{\"text\":\"place down and BECOME\",\"color\":\"light_purple\"}','{\"text\":\"THE NUKE MAN\",\"color\":\"light_purple\",\"bold\":true}']},EntityTag:{Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,Tags:[\"nuke\"],DisabledSlots:4144959},CustomModelData:13321}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:netherite_scrap",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

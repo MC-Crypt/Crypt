@@ -29,11 +29,16 @@ bossbar set minecraft:diamond_drag style notched_12
 bossbar add netherite_drag ["",{"text":":","bold":true,"obfuscated":true,"color":"dark_purple"},{"text":" ","bold":true,"color":"dark_purple"},{"text":"NETHERITE DRAGON","bold":true,"underlined":true,"color":"#6D4F00"},{"text":" :","bold":true,"obfuscated":true,"color":"dark_purple"}]
 bossbar set minecraft:netherite_drag color red
 bossbar set minecraft:netherite_drag style notched_20
+bossbar add netherite_ghast ["",{"text":":","bold":true,"obfuscated":true,"color":"dark_purple"},{"text":" ","bold":true,"color":"dark_purple"},{"text":"NETHERITE GHAST","bold":true,"underlined":true,"color":"#6D4F00"},{"text":" :","bold":true,"obfuscated":true,"color":"dark_purple"}]
+bossbar set minecraft:netherite_ghast color purple
+bossbar set minecraft:netherite_ghast style notched_6
+bossbar add tim ["",{"text":":","bold":true,"obfuscated":true,"color":"dark_purple"},{"text":" ","bold":true,"color":"dark_purple"},{"text":"DRAGONS SPIRIT","bold":true,"underlined":true,"color":"black"},{"text":" :","bold":true,"obfuscated":true,"color":"dark_purple"}]
+bossbar set minecraft:tim color purple
+bossbar set minecraft:tim style notched_12
 scoreboard players set zero end_crypt 0
 scoreboard objectives add specialarrow dummy {"text":"Special arrow debug","color":"purple"}
 scoreboard players set present end_crypt 0
 scoreboard players set alive end_crypt 0
-scoreboard players set blockdragspawn end_crypt 0
 scoreboard objectives add cooldown dummy {"text": "Cooldown"}
 scoreboard objectives add rightclick minecraft.used:minecraft.warped_fungus_on_a_stick 
 scoreboard players set healingsmoke end_crypt 75
@@ -49,19 +54,7 @@ scoreboard players set crystllev end_crypt 0
 scoreboard objectives add uuid dummy
 scoreboard players set keycooldown smortmath 0
 scoreboard players set cooldown smortmath 0
-scoreboard objectives add wspawnpoint minecraft.used:minecraft.white_bed
-scoreboard objectives add ospawnpoint minecraft.used:minecraft.orange_bed
-scoreboard objectives add mspawnpoint minecraft.used:minecraft.magenta_bed
-scoreboard objectives add lbspawnpoint minecraft.used:minecraft.light_blue_bed
-scoreboard objectives add yspawnpoint minecraft.used:minecraft.yellow_bed
-scoreboard objectives add lspawnpoint minecraft.used:minecraft.lime_bed
-scoreboard objectives add pspawnpoint minecraft.used:minecraft.pink_bed
-scoreboard objectives add lgspawnpoint minecraft.used:minecraft.light_gray_bed
-scoreboard objectives add gspawnpoint minecraft.used:minecraft.gray_bed
-scoreboard objectives add cspawnpoint minecraft.used:minecraft.cyan_bed
-scoreboard objectives add puspawnpoint minecraft.used:minecraft.purple_bed
-scoreboard objectives add bspawnpoint minecraft.used:minecraft.blue_bed
-scoreboard objectives add brpawnpoint minecraft.used:minecraft.brown_bed
-scoreboard objectives add grspawnpoint minecraft.used:minecraft.green_bed
-scoreboard objectives add rspawnpoint minecraft.used:minecraft.red_bed
-scoreboard objectives add bspawnpoint minecraft.used:minecraft.black_bed
+scoreboard players set pearch end_crypt 0
+bossbar set tim max 500
+scoreboard players set bridge end_crypt 0
+scoreboard players set blockdragonspawn end_crypt 0

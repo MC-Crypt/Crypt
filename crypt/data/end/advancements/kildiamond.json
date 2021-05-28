@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Diamond Doom",
+            "color": "aqua",
+            "bold": true
+        },
+        "description": {
+            "text": "Kill the Diamond Dragon, spellcaster of the corrupted land",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kildiamond": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "end:egg"
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Golden Glory",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Kill the Gold Dragon, messenger of the corrupted land",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kilgold": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "end:egg"
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Netherite Necromancy",
+            "color": "dark_gray",
+            "bold": true
+        },
+        "description": {
+            "text": "Kill the Netherite Dragon, ruler of the corrupted land",
+            "color": "dark_gray"
+        },
+        "icon": {
+            "item": "minecraft:netherite_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kilnetherite": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "end:egg"
+}

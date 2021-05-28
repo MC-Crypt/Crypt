@@ -1,33 +1,30 @@
 {
     "display": {
         "title": {
-            "text": "A New Adventure",
+            "text": "Welcome to Crypt",
             "color": "dark_purple",
             "bold": true
         },
         "description": {
-            "text": "Enter the crypt portal",
-            "color": "gray"
+            "text": "Enter the Crypt dimension",
+            "color": "dark_purple"
         },
         "icon": {
             "item": "minecraft:end_portal_frame"
         },
-        "frame": "goal",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": false,
-        "background": "minecraft:textures/block/bedrock.png"
+        "hidden": true,
+        "background": "minecraft:textures/block/crying_obsidian.png"
     },
     "criteria": {
-        "enter": {
+        "entercrypt": {
             "trigger": "minecraft:changed_dimension",
             "conditions": {
                 "from": "overworld",
-                "to": "the_end"
+                "to": "end:crypt"
             }
         }
-    },
-    "rewards": {
-        "experience": 2
     }
 }

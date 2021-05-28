@@ -72,6 +72,17 @@
                 {
                     "type": "empty",
                     "weight": 18
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:armor_stand",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Healing totem\",\"color\":\"light_purple\",\"bold\":true}'},EntityTag:{CustomNameVisible:1b,Invulnerable:1b,ShowArms:0b,Invisible:1b,NoBasePlate:0b,Tags:[\"Healingtot\"],Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],Head:[0f,0f,0f]},DisabledSlots:4144959,ArmorItems:[{},{},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:2293504}}},{id:\"minecraft:brewing_stand\",Count:1b}],CustomName:'{\"text\":\"Healing totem\",\"color\":\"light_purple\",\"bold\":true}'}}"
+                        }
+                    ]
                 }
             ]
         },
@@ -125,6 +136,28 @@
                 {
                     "type": "empty",
                     "weight": 4
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Enchantment \",\"color\":\"white\",\"bold\":true},{\"text\":\"Reforge book\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Go to the reforger in the libary\",\"color\":\"light_purple\"}','{\"text\":\"and use this on a multisword\",\"color\":\"light_purple\"}']},CustomModelData:455}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Diamond \",\"color\":\"blue\",\"bold\":true},{\"text\":\"Reforge book\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Go to the reforger in the libary\",\"color\":\"light_purple\"}','{\"text\":\"and use this on a multisword\",\"color\":\"light_purple\"}']},CustomModelData:453}"
+                        }
+                    ]
                 }
             ]
         }

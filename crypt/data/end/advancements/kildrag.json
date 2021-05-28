@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Dragon's Demise",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Kill the Crypt Dragon, overseer of the corrupted land",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kildrag": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "end:egg"
+}

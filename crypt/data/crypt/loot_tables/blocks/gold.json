@@ -160,6 +160,17 @@
                             "tag": "{display:{Name:'{\"text\":\"Speed Talisman\",\"color\":\"gold\"}',Lore:['{\"text\":\" \"}','{\"text\":\"when held grants doubles your speed\",\"color\":\"light_purple\"}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:2,Operation:2,UUID:[I;-432665174,1871595096,-2130694610,1719471357]}]}"
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Gold \",\"color\":\"gold\",\"bold\":true},{\"text\":\"Reforge book\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Go to the reforger in the libary\",\"color\":\"light_purple\"}','{\"text\":\"and use this on a multisword\",\"color\":\"light_purple\"}']},CustomModelData:452}"
+                        }
+                    ]
                 }
             ]
         }

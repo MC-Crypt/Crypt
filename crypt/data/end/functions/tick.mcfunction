@@ -1,15 +1,19 @@
 execute if score alive end_crypt matches 1 run kill @e[type=minecraft:falling_block,x=0,y=178,z=0,dx=1,dy=1,dz=1]
 execute if score alive end_crypt matches 1 run kill @e[type=minecraft:falling_block,x=-40,y=175,z=-40,dx=80,dy=1,dz=80]
-execute unless entity @e[type=ender_dragon,name="crypt"] if score alive end_crypt matches 1 if score startup end_crypt matches 0 run function end:dead
+execute unless entity @e[type=ender_dragon,name="crypt"] if score alive end_crypt matches 1 run function end:dead
+execute unless entity @e[type=phantom,tag=crypt] if score tim end_crypt matches 1 run function end:netheritep2_dead
 execute if score cryptdrag end_crypt matches 1 store result bossbar crypt_drag value run scoreboard players get hp end_crypt
 execute if score irondrag end_crypt matches 1 store result bossbar iron_drag value run scoreboard players get hp end_crypt
 execute if score golddrag end_crypt matches 1 store result bossbar gold_drag value run scoreboard players get hp end_crypt
 execute if score diamonddrag end_crypt matches 1 store result bossbar diamond_drag value run scoreboard players get hp end_crypt
 execute if score netheritedrag end_crypt matches 1 store result bossbar netherite_drag value run scoreboard players get hp end_crypt
+execute if score netheritedrag end_crypt matches 1 store result bossbar netherite_ghast value run data get entity @e[type=minecraft:ghast,tag=crypt,limit=1] Health
+execute if score netheritedrag end_crypt matches 1 store result bossbar tim value run data get entity @e[type=minecraft:phantom,tag=crypt,limit=1] Health
 execute store result score hp end_crypt as @e[type=ender_dragon,name="crypt"] run data get entity @s Health
+execute if entity @e[type=minecraft:phantom,tag=crypt] store result score hp end_crypt run data get entity @e[type=phantom,tag=crypt,limit=1] Health
 execute if score hp end_crypt <= half end_crypt run function end:half
-execute if entity @e[type=ender_dragon,limit=1,name="crypt",nbt={DragonPhase:6}] if score pearch end_crypt matches 0 run function end:pearch
-execute if entity @e[type=ender_dragon,limit=1,name="crypt",nbt={DragonPhase:4}] if score pearch end_crypt matches 1 run scoreboard players set pearch end_crypt 0
+execute if entity @e[type=ender_dragon,limit=1,tag=crypt,nbt={DragonPhase:6}] if score pearch end_crypt matches 0 run function end:pearch
+execute if entity @e[type=ender_dragon,limit=1,tag=crypt,nbt={DragonPhase:4}] if score pearch end_crypt matches 1 run scoreboard players set pearch end_crypt 0
 execute if score irondrag end_crypt matches 1 if score half end_crypt matches -1 at @e[type=ender_dragon,name="crypt"] run tp @e[type=iron_golem,tag=prot1] ~5 ~-1 ~
 execute if score irondrag end_crypt matches 1 if score half end_crypt matches -1 at @e[type=ender_dragon,name="crypt"] run tp @e[type=iron_golem,tag=prot2] ~-5 ~-1 ~
 execute if score irondrag end_crypt matches 1 if score half end_crypt matches -1 at @e[type=ender_dragon,name="crypt"] run tp @e[type=iron_golem,tag=prot3] ~ ~-1 ~5
@@ -28,3 +32,5 @@ execute at @e[tag=armornpc,type=villager] as @p[distance=..3,scores={armornpc=0}
 execute at @e[tag=mayornpc,type=villager] as @p[distance=..2,scores={mayornpc=0}] run function end:mayornpc
 execute at @e[type=armor_stand,tag=key_sheep] run summon item ~ ~ ~ {Age:5950,Health:10000,PickupDelay:32767,Motion:[0.0,1.0,0.0],Item:{id:"minecraft:diamond",Count:1b}}
 execute if score alive end_crypt matches 0 if score present end_crypt matches 1 unless score hp end_crypt matches 1000 unless score end_drag end_crypt matches 1 run scoreboard players add hp end_crypt 1
+execute in end:crypt as @e[x=-64,y=250,z=-64,dx=128,dy=6,dz=128] at @s run spreadplayers 0 0 1 64 false @s
+execute in end:crypt as @e[x=-64,y=244,z=-64,dx=128,dy=10,dz=128] at @s run particle minecraft:smoke ~ 254 ~ 2 0 2 0 200 force

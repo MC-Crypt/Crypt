@@ -1,3 +1,4 @@
+execute if score netheritedrag end_crypt matches 0 run scoreboard players set regenworld end_crypt 1
 execute in end:crypt if score cryptdrag end_crypt matches 1 run function end:crypt_dead
 execute in end:crypt if score cryptrag end_crypt matches 1 run tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Line 1 From function dead ran command end_dead decided that it was end dragon","color": "green"}]
 execute in end:crypt if score irondrag end_crypt matches 1 run function end:iron_dead
@@ -12,7 +13,6 @@ execute unless entity @a[x=-64,y=149,z=-64,dx=128,dy=100,dz=128] run tellraw @a 
 execute as @a run function music:dragons_rage/stop
 scoreboard players set hp end_crypt 0
 scoreboard players set half end_crypt -1
-scoreboard players set regenworld end_crypt 1
 scoreboard players set present end_crypt 0
 kill @e[tag=key_sheep]
 function end:dooropen

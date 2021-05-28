@@ -300,7 +300,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'[{\"text\":\"Iron \",\"color\":\"blue\",\"bold\":true},{\"text\":\"Upgrade book\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Go to the reforger in the libary\",\"color\":\"light_purple\"}','{\"text\":\"and use this on a multisword\",\"color\":\"light_purple\"}']}}"
+                            "tag": "{display:{Name:'[{\"text\":\"Iron \",\"color\":\"blue\",\"bold\":true},{\"text\":\"Reforge book\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Go to the reforger in the libary\",\"color\":\"light_purple\"}','{\"text\":\"and use this on a multisword\",\"color\":\"light_purple\"}']},CustomModelData:451}"
                         }
                     ]
                 },

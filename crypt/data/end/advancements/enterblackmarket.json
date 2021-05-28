@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Shady Business",
+            "color": "dark_blue",
+            "bold": true
+        },
+        "description": {
+            "text": "Enter the Black Market, where dodgy deals and sneaky scams happen in secret",
+            "color": "dark_blue"
+        },
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enterblackmarket": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "end:root"
+}

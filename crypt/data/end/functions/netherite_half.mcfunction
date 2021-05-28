@@ -1,0 +1,4 @@
+tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Run command end_half this has no other external links","color": "green"}]
+execute at @a[x=-64,y=149,z=-64,dx=128,dy=100,dz=128] run function cryptbackground:arrownuke
+execute if entity @e[type=ender_dragon,tag=crypt] run tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Nehterite Dragon","bold":true,"color":"black"},{"text":"] ","color":"#FF9F00"},{"text":"DIE","bold":true,"color":"#FF0300"}]
+execute if entity @e[type=phantom,tag=crypt] run tellraw @a ["",{"text":"[","bold":true,"color":"gold"},{"text":"Voice from above","bold":true,"color":"dark_green"},{"text":"]","bold":true,"color":"gold"},{"text":" FEEL MY RAGE","bold":true,"color":"dark_purple"}]

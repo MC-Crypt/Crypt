@@ -1,15 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "The batlle",
-            "color": "gold"
+            "text": "Hero's Forge",
+            "color": "gold",
+            "bold": true
         },
         "description": {
-            "text": "go to the battle arena",
-            "color": "gray"
+            "text": "Talk to the Blacksmith, forger of powerful weapons and armour",
+            "color": "gold"
         },
         "icon": {
-            "item": "minecraft:netherite_sword"
+            "item": "minecraft:anvil"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +18,7 @@
         "hidden": false
     },
     "criteria": {
-        "arena": {
+        "meetblacksmith": {
             "trigger": "minecraft:impossible"
         }
     },
