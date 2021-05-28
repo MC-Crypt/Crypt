@@ -1,5 +1,5 @@
 execute at @e[type=armor_stand,limit=1,tag=Healingtot,tag=!done] as @e[type=armor_stand,limit=1,tag=Healingtot,tag=!done] run function cryptbackground:totem
-execute in end:crypt run tag @e[x=-300,y=0,z=-300,dx=600,dy=256,dz=600,type=!player] add incrypt 
+execute in minecraft:the_end run tag @e[x=-300,y=0,z=-300,dx=600,dy=256,dz=600,type=!player] add incrypt 
 execute at @e[type=armor_stand,limit=1,tag=Healingtot] run effect give @e[distance=0..5] regeneration 1 1
 execute at @a[nbt={SelectedItem:{id: "minecraft:fishing_rod",tag:{CustomModelData:455446}}}] run execute as @e[type=minecraft:fishing_bobber,distance=1..3] run tag @s add midasbob
 execute at @e[type=fishing_bobber,tag=midasbob,tag=!incrypt] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:gold_block"},Time:0,DropItem:0b}
@@ -31,15 +31,15 @@ execute as @a[scores={rightclick=1..}] run scoreboard players set @s rightclick 
 #portal
 execute if block 1 69 2 minecraft:end_portal_frame[eye=true] if block -1 69 2 minecraft:end_portal_frame[eye=true] if block -2 69 1 minecraft:end_portal_frame[eye=true] if block -2 69 -1 minecraft:end_portal_frame[eye=true] if block -1 69 -2 minecraft:end_portal_frame[eye=true] if block 1 69 -2 minecraft:end_portal_frame[eye=true] if block 2 69 -1 minecraft:end_portal_frame[eye=true] if block 2 69 1 minecraft:end_portal_frame[eye=true] if block 0 68 0 lava run function end:open
 execute if block 1 69 2 minecraft:end_portal_frame[eye=true] if block -1 69 2 minecraft:end_portal_frame[eye=true] if block -2 69 1 minecraft:end_portal_frame[eye=true] if block -2 69 -1 minecraft:end_portal_frame[eye=true] if block -1 69 -2 minecraft:end_portal_frame[eye=true] if block 1 69 -2 minecraft:end_portal_frame[eye=true] if block 2 69 -1 minecraft:end_portal_frame[eye=true] if block 2 69 1 minecraft:end_portal_frame[eye=true] run particle minecraft:ash 0 69.9 0 1 0 1 1 40 normal
-execute if block 1 69 2 minecraft:end_portal_frame[eye=true] if block -1 69 2 minecraft:end_portal_frame[eye=true] if block -2 69 1 minecraft:end_portal_frame[eye=true] if block -2 69 -1 minecraft:end_portal_frame[eye=true] if block -1 69 -2 minecraft:end_portal_frame[eye=true] if block 1 69 -2 minecraft:end_portal_frame[eye=true] if block 2 69 -1 minecraft:end_portal_frame[eye=true] if block 2 69 1 minecraft:end_portal_frame[eye=true] run execute as @a[x=-1,y=67,z=-1,dx=2,dy=1.6,dz=2] in end:crypt run tp 0 161.5 -214
+execute if block 1 69 2 minecraft:end_portal_frame[eye=true] if block -1 69 2 minecraft:end_portal_frame[eye=true] if block -2 69 1 minecraft:end_portal_frame[eye=true] if block -2 69 -1 minecraft:end_portal_frame[eye=true] if block -1 69 -2 minecraft:end_portal_frame[eye=true] if block 1 69 -2 minecraft:end_portal_frame[eye=true] if block 2 69 -1 minecraft:end_portal_frame[eye=true] if block 2 69 1 minecraft:end_portal_frame[eye=true] run execute as @a[x=-1,y=67,z=-1,dx=2,dy=1.6,dz=2] in minecraft:the_end run tp 0 161.5 -214
 #gui
 scoreboard players enable @a end_gui 
 execute as @a[scores={end_gui=1}] run function end:gui1
 execute as @a[scores={end_gui=2}] run function end:gui2
 execute as @a[scores={end_gui=3}] run function end:gui3
 execute as @a[scores={end_gui=11}] run scoreboard objectives setdisplay sidebar end_crypt
-execute in end:crypt if score on end_crypt matches 1 run function end:tick
+execute in minecraft:the_end if score on end_crypt matches 1 run function end:tick
 execute as @a[nbt={Inventory:[{id:"minecraft:diamond_chestplate",Slot:102b,tag:{CustomModelData:39984}}]},scores={crouching=1..}] run effect give @s regeneration 1 1 false
 execute as @a[nbt={Inventory:[{id:"minecraft:golden_boots",Slot:100b,tag:{CustomModelData:554466}}]},scores={crouching=1..}] if entity @s[nbt={OnGround:1b}] at @s run function cryptbackground:leapingboots
-execute in end:crypt as @a[x=-1,y=159,z=-219,dx=2,dy=1.6,dz=2] run execute in overworld run tp 2 70 0
+execute in minecraft:the_end as @a[x=-1,y=159,z=-219,dx=2,dy=1.6,dz=2] run execute in overworld run tp 2 70 0
 execute as @a[scores={crouching=1..}] unless entity @s[scores={crouchconfirm=1..}] run scoreboard players reset @s

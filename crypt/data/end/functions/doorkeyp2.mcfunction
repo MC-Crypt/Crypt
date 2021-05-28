@@ -1,1 +1,1 @@
-execute in end:crypt run spreadplayers 0 0 10 60 false @e[type=minecraft:sheep,x=-3,y=110,z=-3,dx=6,dy=20,dz=6]
+execute in minecraft:the_end run spreadplayers 0 0 10 60 false @e[type=minecraft:sheep,x=-3,y=110,z=-3,dx=6,dy=20,dz=6]

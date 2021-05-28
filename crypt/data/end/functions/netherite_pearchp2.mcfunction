@@ -1,4 +1,4 @@
-execute in end:crypt run tp @e[type=ender_dragon,limit=1,tag=crypt] 0 175 0
+execute in minecraft:the_end run tp @e[type=ender_dragon,limit=1,tag=crypt] 0 175 0
 scoreboard players set netheritepearch end_crypt 0
 bossbar set minecraft:netherite_drag visible true
 bossbar set minecraft:netherite_ghast visible false

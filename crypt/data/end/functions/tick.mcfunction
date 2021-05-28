@@ -32,5 +32,5 @@ execute at @e[tag=armornpc,type=villager] as @p[distance=..3,scores={armornpc=0}
 execute at @e[tag=mayornpc,type=villager] as @p[distance=..2,scores={mayornpc=0}] run function end:mayornpc
 execute at @e[type=armor_stand,tag=key_sheep] run summon item ~ ~ ~ {Age:5950,Health:10000,PickupDelay:32767,Motion:[0.0,1.0,0.0],Item:{id:"minecraft:diamond",Count:1b}}
 execute if score alive end_crypt matches 0 if score present end_crypt matches 1 unless score hp end_crypt matches 1000 unless score end_drag end_crypt matches 1 run scoreboard players add hp end_crypt 1
-execute in end:crypt as @e[x=-64,y=250,z=-64,dx=128,dy=6,dz=128] at @s run spreadplayers 0 0 1 64 false @s
-execute in end:crypt as @e[x=-64,y=244,z=-64,dx=128,dy=10,dz=128] at @s run particle minecraft:smoke ~ 254 ~ 2 0 2 0 200 force
+execute in minecraft:the_end as @e[x=-64,y=250,z=-64,dx=128,dy=6,dz=128] at @s run spreadplayers 0 0 1 64 false @s
+execute in minecraft:the_end as @e[x=-64,y=244,z=-64,dx=128,dy=10,dz=128] at @s run particle minecraft:smoke ~ 254 ~ 2 0 2 0 200 force
