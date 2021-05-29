@@ -1,0 +1,53 @@
+{
+  "scale": 0.2,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 16711914,
+    "fog_color": 16711935,
+    "water_color": 16711867,
+    "water_fog_color": 16711867,
+    "particle": {
+      "options": {
+        "type": "minecraft:dust",
+        "scale": 1,
+        "r": 1,
+        "g": 0,
+        "b": 0.9686274509803922
+      },
+      "probability": 0.015
+    }
+  },
+  "surface_builder": "minecraft:end",
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_spike"
+    ]
+  ],
+  "starts": [],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "category": "the_end",
+  "depth": 0.1,
+  "creature_spawn_probability": 0
+}

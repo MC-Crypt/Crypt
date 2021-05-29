@@ -25,3 +25,4 @@ execute if score netheritedrag end_crypt matches 1 if score netheritepearch end_
 execute if score netheritedrag end_crypt matches 1 if score netheritepearch end_crypt matches 1 unless entity @e[type=ghast,tag=crypt] run function end:netherite_pearchp2
 execute at @e[type=villager,tag=armornpc] run advancement grant @a[distance=..3] only end:meetblacksmith
 execute at @e[type=villager,tag=crypttrade] run advancement grant @a[distance=..3] only end:enterblackmarket
+execute in the_end run kill @e[type=enderman,x=-64,y=156,z=-240,dx=128,dy=30,dz=300]
