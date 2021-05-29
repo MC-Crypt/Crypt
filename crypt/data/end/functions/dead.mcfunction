@@ -1,5 +1,5 @@
 execute if score netheritedrag end_crypt matches 0 run scoreboard players set regenworld end_crypt 1
-execute in minecraft:the_end if score cryptdrag end_crypt matches 1 run function minecraft:the_end_dead
+execute in minecraft:the_end if score cryptdrag end_crypt matches 1 run function end:crypt_dead
 execute in minecraft:the_end if score cryptrag end_crypt matches 1 run tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Line 1 From function dead ran command end_dead decided that it was end dragon","color": "green"}]
 execute in minecraft:the_end if score irondrag end_crypt matches 1 run function end:iron_dead
 execute in minecraft:the_end if score irondrag end_crypt matches 1 run tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Line 3 From function dead ran command iron_dead decided that it was iron dragon","color": "green"}]

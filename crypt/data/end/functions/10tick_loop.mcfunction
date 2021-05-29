@@ -5,7 +5,7 @@ execute if score diamonddrag end_crypt matches 1 if score present end_crypt matc
 execute if score netheritedrag end_crypt matches 1 if score present end_crypt matches 1 run bossbar set netherite_drag players @a
 execute if score netheritedrag end_crypt matches 1 if score present end_crypt matches 1 run bossbar set netherite_ghast players @a
 execute if score netheritedrag end_crypt matches 1 run bossbar set tim players @a
-execute if score hp end_crypt matches 150 if score present end_crypt matches 1 if score sayedline end_crypt matches 0 run function minecraft:the_end_line
+execute if score hp end_crypt matches 150 if score present end_crypt matches 1 if score sayedline end_crypt matches 0 run function end:crypt_line
 execute if score blockdragonspawn end_crypt matches 0 in minecraft:the_end run function end:dragspawnegg
 execute at @e[type=armor_stand,tag=Healingtot] as @e[type=armor_stand,tag=Healingtot] run function cryptbackground:partical
 gamemode survival @a[x=-64,y=149,z=-64,dx=128,dy=100,dz=128,gamemode=adventure]
@@ -25,4 +25,4 @@ execute if score netheritedrag end_crypt matches 1 if score netheritepearch end_
 execute if score netheritedrag end_crypt matches 1 if score netheritepearch end_crypt matches 1 unless entity @e[type=ghast,tag=crypt] run function end:netherite_pearchp2
 execute at @e[type=villager,tag=armornpc] run advancement grant @a[distance=..3] only end:meetblacksmith
 execute at @e[type=villager,tag=crypttrade] run advancement grant @a[distance=..3] only end:enterblackmarket
-execute in the_end run kill @e[type=enderman,x=-64,y=156,z=-240,dx=128,dy=30,dz=300]
+execute in the_end run kill @e[type=enderman,x=-64,y=156,z=-240,dx=128,dy=30,dz=300,tag=!build]
