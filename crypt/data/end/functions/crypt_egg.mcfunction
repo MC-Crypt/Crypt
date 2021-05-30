@@ -184,7 +184,7 @@ execute in minecraft:the_end run summon armor_stand -3 171 -3 {Invulnerable:1b,N
 scoreboard players set present end_crypt 1
 scoreboard players set blockdragonspawn end_crypt 1
 scoreboard players set hp end_crypt 0
-schedule function minecraft:the_end_prep 3s
+schedule function end:crypt_prep 3s
 tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Run command crypt_egg line 12 schedule crypt_prep 60t","color": "green"}]
 execute as @a run function music:dragons_rage/play
 execute in minecraft:the_end run setblock 13 172 13 air
