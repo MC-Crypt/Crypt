@@ -173,10 +173,10 @@ execute in minecraft:the_end run setblock 0 212 1 minecraft:yellow_concrete
 execute in minecraft:the_end run setblock 1 212 0 minecraft:yellow_wool
 execute in minecraft:the_end run setblock 0 213 0 minecraft:yellow_concrete
 execute in minecraft:the_end run setblock 0 214 0 minecraft:yellow_concrete
-execute in minecraft:the_end run setblock 3 171 3 end_gateway{Age:0,ExactTeleport:0b}
-execute in minecraft:the_end run setblock 3 171 -3 end_gateway{Age:0,ExactTeleport:0b}
-execute in minecraft:the_end run setblock -3 171 3 end_gateway{Age:0,ExactTeleport:0b}
-execute in minecraft:the_end run setblock -3 171 -3 end_gateway{Age:0,ExactTeleport:0b}
+execute in minecraft:the_end run setblock 3 171 3 end_gateway{Age:0,ExactTeleport:1b,ExitPortal:{X:2,Y:171,Z:2}} replace
+execute in minecraft:the_end run setblock 3 171 -3 end_gateway{Age:0,ExactTeleport:1b,ExitPortal:{X:2,Y:171,Z:-2}} replace
+execute in minecraft:the_end run setblock -3 171 3 end_gateway{Age:0,ExactTeleport:1b,ExitPortal:{X:-2,Y:171,Z:2}} replace
+execute in minecraft:the_end run setblock -3 171 -3 end_gateway{Age:0,ExactTeleport:1b,ExitPortal:{X:-2,Y:171,Z:-2}} replace
 execute in minecraft:the_end run summon armor_stand 3 171 3 {Invulnerable:1b,NoGravity:1b,Invisible:1b,PersistenceRequired:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;209075787,404701402,-1842947730,-1544292868],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgwMTg0MGEwNDk3YTNhYjJhMzlhZjM3ZmQ3YWIxMjYzNWZiNWExZTViMWQwNzczMmFkM2U3NjM5YWQ2ZDg0MyJ9fX0="}]}}}}],Tags:["crypt"]}
 execute in minecraft:the_end run summon armor_stand -3 171 3 {Invulnerable:1b,NoGravity:1b,Invisible:1b,PersistenceRequired:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;209075787,404701402,-1842947730,-1544292868],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgwMTg0MGEwNDk3YTNhYjJhMzlhZjM3ZmQ3YWIxMjYzNWZiNWExZTViMWQwNzczMmFkM2U3NjM5YWQ2ZDg0MyJ9fX0="}]}}}}],Tags:["crypt"]}
 execute in minecraft:the_end run summon armor_stand 3 171 -3 {Invulnerable:1b,NoGravity:1b,Invisible:1b,PersistenceRequired:1b,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;209075787,404701402,-1842947730,-1544292868],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgwMTg0MGEwNDk3YTNhYjJhMzlhZjM3ZmQ3YWIxMjYzNWZiNWExZTViMWQwNzczMmFkM2U3NjM5YWQ2ZDg0MyJ9fX0="}]}}}}],Tags:["crypt"]}
