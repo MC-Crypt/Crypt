@@ -1,6 +1,7 @@
 {
   "type": "minecraft:the_end",
   "generator": {
+    "seed": 69,
     "type": "minecraft:flat",
     "settings": {
       "structures": {

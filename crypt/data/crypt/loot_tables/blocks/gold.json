@@ -59,7 +59,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "name": "minecraft:golden_boots",
                     "functions": [
                         {
@@ -70,7 +70,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 4,
                     "name": "minecraft:wooden_pickaxe",
                     "functions": [
                         {

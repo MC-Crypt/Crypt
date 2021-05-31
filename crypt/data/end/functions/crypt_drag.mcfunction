@@ -188,7 +188,6 @@ scoreboard players set half end_crypt 75
 execute in minecraft:the_end run kill @e[type=end_crystal,x=-4,y=160,z=-4,dx=8,dy=12,dz=8]
 execute in minecraft:the_end run particle minecraft:enchant 0 195 0 0 0 0 20 500
 tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Run command end_drag this has no other external links","color": "green"}]
-execute at @a run setblock ~ ~ ~ obsidian
 scoreboard players set randomattack end_crypt 100000
 execute as @a at @s run playsound entity.ravager.celebrate master @s ~ ~ ~ 1 1
 particle minecraft:explosion_emitter 0 210 0 4 7 4 1 40 force

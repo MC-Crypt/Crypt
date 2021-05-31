@@ -4,4 +4,4 @@ execute at @a[x=-64,y=149,z=-64,dx=128,dy=100,dz=128] run fill ~2 ~-1 ~2 ~-2 ~-2
 execute at @a[x=-64,y=149,z=-64,dx=128,dy=100,dz=128] run fill ~1 ~-1 ~1 ~-1 ~-2 ~-1 minecraft:white_terracotta replace red_terracotta
 scoreboard players set pearch end_crypt 1
 execute as @a[x=-64,y=149,z=-64,dx=128,dy=100,dz=128] at @s run playsound minecraft:entity.evoker.celebrate master @s ~ ~ ~ 2 0.7
-tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Crypt Dragon","bold":true,"color":"light_purple"},{"text":"]","color":"#FF9F00"},{"text":" DIE (tm)","color":"#FF0300"}]
+tellraw @a ["",{"text":"[","color":"#FF9F00"},{"text":"Crypt Dragon","bold":true,"color":"light_purple"},{"text":"]","color":"#FF9F00"},{"text":" PREAPARE TO PERISH","color":"#FF0300"}]

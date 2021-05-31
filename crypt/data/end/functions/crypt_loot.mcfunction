@@ -5,4 +5,4 @@ execute in minecraft:the_end if score players end_crypt >= zero end_crypt if blo
 execute in minecraft:the_end if score players end_crypt >= zero end_crypt if block 1 172 1 chest unless block 1 172 -1 chest run setblock 1 172 -1 chest{LootTable:"end:blocks/crypt",CustomName:'{"text":"Crypt dragon loot","color":"light_purple","bold":true}'} destroy
 execute in minecraft:the_end if score players end_crypt >= zero end_crypt unless block 1 172 1 chest run setblock 1 172 1 chest{LootTable:"end:blocks/crypt",CustomName:'{"text":"Crypt dragon loot","color":"light_purple","bold":true}'} destroy
 execute in minecraft:the_end if block -1 172 1 chest run scoreboard players set players end_crypt 0
-execute unless score players end_crypt matches 0 run schedule function minecraft:crypt_loot 5t
+execute unless score players end_crypt matches 0 run schedule function end:crypt_loot 5t
