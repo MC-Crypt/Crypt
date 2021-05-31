@@ -1,4 +1,4 @@
-execute in minecraft:the_end run summon ghast 0 175 0 {Health:200f,ExplosionPower:10,Attributes:[{Name:generic.max_health,Base:200},{Name:generic.follow_range,Base:200},{Name:generic.knockback_resistance,Base:1},{Name:generic.armor,Base:10}],Tags:["crypt"]}
+execute in minecraft:the_end run summon ghast 0 175 0 {CustomNameVisible:0b,Health:200f,ExplosionPower:10,Tags:["crypt"],CustomName:'{"text":"Netherite Ghast"}',Attributes:[{Name:generic.max_health,Base:200},{Name:generic.follow_range,Base:200},{Name:generic.knockback_resistance,Base:1},{Name:generic.armor,Base:10}]}
 bossbar set minecraft:netherite_drag visible false
 bossbar set minecraft:netherite_ghast visible true
 execute in minecraft:the_end run tp @e[type=ender_dragon,limit=1,tag=crypt] 0 70 0
