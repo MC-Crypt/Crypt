@@ -10,6 +10,7 @@ execute if score netheritedrag end_crypt matches 1 store result bossbar netherit
 execute if score netheritedrag end_crypt matches 1 store result bossbar netherite_ghast value run data get entity @e[type=minecraft:ghast,tag=crypt,limit=1] Health
 execute if score netheritedrag end_crypt matches 1 store result bossbar tim value run data get entity @e[type=minecraft:phantom,tag=crypt,limit=1] Health
 execute store result score hp end_crypt as @e[type=ender_dragon,name="crypt"] run data get entity @s Health
+execute store result score hp end_crypt as @e[type=phantom,name="crypt"] run data get entity @s Health
 execute if entity @e[type=minecraft:phantom,tag=crypt] store result score hp end_crypt run data get entity @e[type=phantom,tag=crypt,limit=1] Health
 execute if score hp end_crypt <= half end_crypt run function end:half
 execute if entity @e[type=ender_dragon,limit=1,tag=crypt,nbt={DragonPhase:6}] if score pearch end_crypt matches 0 run function end:pearch
