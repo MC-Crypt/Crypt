@@ -3,3 +3,4 @@ tellraw @a ["",{"text":"[","bold":true,"color":"gold"},{"text":"Voice from above
 schedule function end:netheritep2_linep2 5s
 function music:tim/play
 scoreboard players set half end_crypt 250
+scoreboard players set tim end_crypt 0
