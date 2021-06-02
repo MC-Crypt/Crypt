@@ -15,20 +15,20 @@ execute at @e[type=arrow,nbt={CustomPotionEffects:[{Id:16b,Amplifier:1b,Duration
 execute at @e[type=snowball,tag=trail,scores={specialarrow=5},nbt={Item:{id:"minecraft:ghast_tear",Count:1b}}] run function cryptbackground:thor
 execute at @e[type=snowball,tag=trail,scores={specialarrow=5},nbt={Item:{id:"minecraft:tnt",Count:1b}}] run function cryptbackground:arrownuke
 #diamond staff
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:4653}}},scores={rightclick=1..},tag=!cooldown] at @s run function cryptbackground:diamond_staff
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:4653}}},scores={rightclick=1..,cooldown=0}] at @s run function cryptbackground:diamond_staff
 execute at @e[type=area_effect_cloud,nbt={Age:25},tag=diamondstaff] run function cryptbackground:diamond_staff_cloud
 execute at @e[type=area_effect_cloud,nbt={Age:15},tag=diamondstaff] run function cryptbackground:diamond_staff_wave
 execute if entity @e[type=giant,tag=godaxe,nbt={OnGround:1b}] at @e[type=giant,tag=godaxe,nbt={OnGround:1b}] as @e[type=giant,tag=godaxe,nbt={OnGround:1b}] run function end:godaxeattack
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:665566}}},scores={rightclick=1..},tag=!cooldown] at @s run function cryptbackground:snap
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:665566}}},scores={cooldown=1..}] run function cryptbackground:diamond_staff_cooldown
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:665566}}},scores={rightclick=1..,cooldown=0}] at @s run function cryptbackground:snap
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick"}},scores={rightclick=1..,cooldown=1..}] at @s run function cryptbackground:cooldown
 execute as @a[scores={rightclick=1..},tag=cooldown] run tellraw @s {"text": "This is on cooldown","color": "red"}
 execute as @a[tag=!setup] run function cryptbackground:playersetup 
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:133542}}},scores={rightclick=1..},tag=!cooldown,gamemode=!adventure] at @s run function cryptbackground:banhammerfire
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:48894}}},scores={rightclick=1..,cooldown=0}] at @s run function cryptbackground:steel_weight
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:133542}}},scores={rightclick=1..,cooldown=0},gamemode=!adventure] at @s run function cryptbackground:banhammerfire
 execute as @e[type=armor_stand,tag=banhammer] at @s run function cryptbackground:banhammerfly
 execute as @a[scores={rightclick=1..}] run scoreboard players set @s rightclick 0
 execute as @a[scores={cooldown=1..},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b}}] run scoreboard players remove @s cooldown 1
 execute as @a[scores={cooldown=1..},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b}}] run title @s actionbar ["",{"text":"Cooldown","bold":true,"color":"dark_green"},{"text":":","bold":true,"color":"gold"},{"score":{"name":"@s","objective":"cooldown"},"bold":true,"color":"dark_red"}]
-execute as @a[scores={cooldown=0},tag=cooldown] run tag @s remove cooldown
 #portal
 execute if block 1 69 2 minecraft:end_portal_frame[eye=true] if block -1 69 2 minecraft:end_portal_frame[eye=true] if block -2 69 1 minecraft:end_portal_frame[eye=true] if block -2 69 -1 minecraft:end_portal_frame[eye=true] if block -1 69 -2 minecraft:end_portal_frame[eye=true] if block 1 69 -2 minecraft:end_portal_frame[eye=true] if block 2 69 -1 minecraft:end_portal_frame[eye=true] if block 2 69 1 minecraft:end_portal_frame[eye=true] if block 0 68 0 lava run function end:open
 execute if block 1 69 2 minecraft:end_portal_frame[eye=true] if block -1 69 2 minecraft:end_portal_frame[eye=true] if block -2 69 1 minecraft:end_portal_frame[eye=true] if block -2 69 -1 minecraft:end_portal_frame[eye=true] if block -1 69 -2 minecraft:end_portal_frame[eye=true] if block 1 69 -2 minecraft:end_portal_frame[eye=true] if block 2 69 -1 minecraft:end_portal_frame[eye=true] if block 2 69 1 minecraft:end_portal_frame[eye=true] run particle minecraft:ash 0 69.9 0 1 0 1 1 40 normal

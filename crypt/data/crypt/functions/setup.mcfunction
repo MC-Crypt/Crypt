@@ -59,3 +59,4 @@ bossbar set tim max 500
 scoreboard players set bridge end_crypt 0
 scoreboard players set blockdragonspawn end_crypt 0
 scoreboard players set cooldown smortmath 0
+scoreboard players set randomattack smortmath 300000000

@@ -306,7 +306,7 @@
                 },
                 {
                     "type": "item",
-                    "weight": 1,
+                    "weight": 2,
                     "name": "minecraft:warped_fungus_on_a_stick",
                     "functions": [
                         {
@@ -323,6 +323,17 @@
                         {
                             "function": "set_nbt",
                             "tag": "{display:{Name:'{\"text\":\"steal bow\",\"color\":\"gray\",\"bold\":true}'},Enchantments:[{id:\"minecraft:power\",lvl:7s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Steal weight\",\"color\":\"gray\",\"bold\":true}',Lore:['{\"text\":\" \"}','{\"text\":\"Right click and slow everyone down\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"in a 10 block radius\",\"color\":\"light_purple\",\"bold\":true}']},Unbreakable:1b,CustomModelData:48894,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.05,Operation:0,UUID:[I;-1695201416,-2114042036,-1556114077,-1155188735],Slot:\"mainhand\"}]}"
                         }
                     ]
                 }

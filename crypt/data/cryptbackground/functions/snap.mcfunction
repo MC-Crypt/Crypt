@@ -48,5 +48,4 @@ summon evoker_fangs ~-2 ~ ~3 {CustomNameVisible:0b,Rotation:[-150F,0F],CustomNam
 summon evoker_fangs ~-1 ~ ~4 {CustomNameVisible:0b,Rotation:[-150F,0F],CustomName:'{"text":"Snap","color":"red","bold":true}',Warmup:20}
 effect give @s slowness 1 250 true
 effect give @s jump_boost 1 250 true
-tag @s add cooldown
 scoreboard players set @s cooldown 0

@@ -24,5 +24,8 @@ execute at @e[type=ender_dragon,tag=crypt] run summon minecraft:fireball ~-4.70 
 execute at @e[type=ender_dragon,tag=crypt] run summon minecraft:fireball ~0.50 ~ ~-5.50 {ExplosionPower:5,Item:{id:"minecraft:gold_block",Count:1b},power:[0.0,0.0,-0.3]}
 execute at @e[type=ender_dragon,tag=crypt] run summon minecraft:fireball ~5.69 ~ ~-2.51 {ExplosionPower:5,Item:{id:"minecraft:gold_block",Count:1b},power:[0.3,0.0,-0.3]}
 execute at @e[type=ender_dragon,tag=crypt] run summon minecraft:fireball ~5.69 ~ ~-2.51 {ExplosionPower:5,Item:{id:"minecraft:gold_block",Count:1b},power:[0.3,0.0,0.3]}
-data merge entity @e[type=ender_dragon,limit=1,sort=nearest,tag=crypt] {Invulnerable:1b,DragonPhase:10}
 tellraw @a[tag=debug] [{"text": "[","color": "gold","bold":true},{"text": "DEBUG","color": "red"},{"text": "]","color": "gold","bold":true},{"text": " Run command gold_half scheduling gold_halfp2","color": "green"}]
+execute in end:crypt run summon blaze 13 172 13 {CustomNameVisible:1b,Health:40f,CustomName:'{"text":"Gold defender","color":"gold","bold":true}',Attributes:[{Name:generic.max_health,Base:40},{Name:generic.attack_damage,Base:10}]}
+execute in end:crypt run summon blaze -13 172 13 {CustomNameVisible:1b,Health:40f,CustomName:'{"text":"Gold defender","color":"gold","bold":true}',Attributes:[{Name:generic.max_health,Base:40},{Name:generic.attack_damage,Base:10}]}
+execute in end:crypt run summon blaze 13 172 -13 {CustomNameVisible:1b,Health:40f,CustomName:'{"text":"Gold defender","color":"gold","bold":true}',Attributes:[{Name:generic.max_health,Base:40},{Name:generic.attack_damage,Base:10}]}
+execute in end:crypt run summon blaze -13 172 -13 {CustomNameVisible:1b,Health:40f,CustomName:'{"text":"Gold defender","color":"gold","bold":true}',Attributes:[{Name:generic.max_health,Base:40},{Name:generic.attack_damage,Base:10}]}

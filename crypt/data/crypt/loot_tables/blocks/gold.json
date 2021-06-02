@@ -171,6 +171,17 @@
                             "tag": "{display:{Name:'[{\"text\":\"Gold \",\"color\":\"gold\",\"bold\":true},{\"text\":\"Reforge book\",\"color\":\"gray\",\"bold\":true}]',Lore:['{\"text\":\" \"}','{\"text\":\"Go to the reforger in the libary\",\"color\":\"light_purple\"}','{\"text\":\"and use this on a multisword\",\"color\":\"light_purple\"}']},CustomModelData:452}"
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Gold bow\",\"color\":\"gold\",\"bold\":true}'},Unbreakable:1b,Enchantments:[{id:\"minecraft:power\",lvl:8s},{id:\"minecraft:punch\",lvl:4s},{id:\"minecraft:infinity\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:0,UUID:[I;-1312007844,-1846261463,-1220229952,1449413022],Slot:\"mainhand\"}]}"
+                        }
+                    ]
                 }
             ]
         }
